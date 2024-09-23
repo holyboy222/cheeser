@@ -31,6 +31,7 @@ game.Players.PlayerAdded:Connect(function(plr)
 	plr.Chatted:Connect(function(msg)
 		if plr.UserId == cheeser then
 			if msg:lower() == spell then
+				-- chaos xD
 				cheese()
 			end
 		end
